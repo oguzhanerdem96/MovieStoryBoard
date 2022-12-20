@@ -74,6 +74,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sX2-vE-kKY"/>
+                    <connections>
+                        <outlet property="segmentedControl" destination="WbH-41-LqA" id="9SU-c8-Sc4"/>
+                        <outlet property="topCollectionView" destination="OWB-cg-RqI" id="ZRG-YN-tsN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="291-r7-MKk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

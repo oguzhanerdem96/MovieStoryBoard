@@ -64,19 +64,107 @@
 		66261641294D00B3001AB647 /* MovieStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				6626164B294D00B3001AB647 /* MovieStoryBoard.xcdatamodeld */,
+				66CB4F7029520D6200E74949 /* Detail */,
+				66CB4F6F29520D5C00E74949 /* WatchList */,
+				66CB4F6E29520D5500E74949 /* Search */,
+				66CB4F6D29520D4900E74949 /* Network */,
+				66CB4F6C29520D4000E74949 /* Models */,
+				66CB4F6B29520D3900E74949 /* CoreData */,
+				66CB4F6429520CEC00E74949 /* Main */,
 				66261642294D00B3001AB647 /* AppDelegate.swift */,
 				66261644294D00B3001AB647 /* SceneDelegate.swift */,
 				66261648294D00B3001AB647 /* Main.storyboard */,
-				66261659294D07D0001AB647 /* MainVC.swift */,
 				6626164E294D00B4001AB647 /* Assets.xcassets */,
 				66261650294D00B4001AB647 /* LaunchScreen.storyboard */,
 				66261653294D00B4001AB647 /* Info.plist */,
-				6626164B294D00B3001AB647 /* MovieStoryBoard.xcdatamodeld */,
-				668638952950FB7C007D908B /* LatestVC.swift */,
-				668638972950FB8B007D908B /* PopularVC.swift */,
-				668638992950FBA4007D908B /* TopRatedVC.swift */,
 			);
 			path = MovieStoryBoard;
+			sourceTree = "<group>";
+		};
+		66CB4F6429520CEC00E74949 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				66CB4F6A29520D3100E74949 /* ViewModel */,
+				66CB4F6529520CF400E74949 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		66CB4F6529520CF400E74949 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66261659294D07D0001AB647 /* MainVC.swift */,
+				66CB4F6829520D1500E74949 /* Cell */,
+				66CB4F6729520D0B00E74949 /* Containers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66CB4F6729520D0B00E74949 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				668638972950FB8B007D908B /* PopularVC.swift */,
+				668638952950FB7C007D908B /* LatestVC.swift */,
+				668638992950FBA4007D908B /* TopRatedVC.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		66CB4F6829520D1500E74949 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		66CB4F6A29520D3100E74949 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		66CB4F6B29520D3900E74949 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		66CB4F6C29520D4000E74949 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66CB4F6D29520D4900E74949 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		66CB4F6E29520D5500E74949 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		66CB4F6F29520D5C00E74949 /* WatchList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WatchList;
+			sourceTree = "<group>";
+		};
+		66CB4F7029520D6200E74949 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
