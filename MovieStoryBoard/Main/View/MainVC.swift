@@ -9,6 +9,9 @@ import UIKit
 
 class MainVC: UIViewController {
     
+    @IBOutlet weak var latesCollectionView: UIView!
+    @IBOutlet weak var popularCollectionView: UIView!
+    @IBOutlet weak var topRatedCollectionView: UIView!
     @IBOutlet weak var topCollectionView: UICollectionView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     let topCell = "TopCell"

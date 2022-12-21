@@ -106,8 +106,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="sX2-vE-kKY"/>
                     <connections>
+                        <outlet property="latesCollectionView" destination="fvb-Wc-eho" id="Znk-lW-Par"/>
+                        <outlet property="popularCollectionView" destination="aRP-Q5-okF" id="t6S-az-jgg"/>
                         <outlet property="segmentedControl" destination="WbH-41-LqA" id="9SU-c8-Sc4"/>
-                        <outlet property="topCollectionView" destination="OWB-cg-RqI" id="ZRG-YN-tsN"/>
+                        <outlet property="topCollectionView" destination="OWB-cg-RqI" id="KG3-Bh-WlX"/>
+                        <outlet property="topRatedCollectionView" destination="ZC0-kZ-vJT" id="TK5-W4-iWl"/>
                         <outlet property="view" destination="ZC0-kZ-vJT" id="It2-bk-53p"/>
                     </connections>
                 </viewController>
