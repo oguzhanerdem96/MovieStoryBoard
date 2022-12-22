@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+protocol CastDelegate: AnyObject {
+    
+}
+
+class CastVM {
+    static let shared = CastVM()
+}
