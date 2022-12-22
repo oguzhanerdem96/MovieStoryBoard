@@ -398,8 +398,8 @@
 		66CB4F6D29520D4900E74949 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				664EE9B7295454490037908C /* CastManager */,
 				664EE9B6295454410037908C /* Core */,
+				664EE9B7295454490037908C /* CastManager */,
 			);
 			path = Network;
 			sourceTree = "<group>";
