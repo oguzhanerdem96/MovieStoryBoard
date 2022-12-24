@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="OWB-cg-RqI">
-                                <rect key="frame" x="0.0" y="88.999999999999986" width="393" height="255.66666666666663"/>
+                                <rect key="frame" x="0.0" y="89" width="393" height="255.66666666666663"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Rop-cy-g8e">
                                     <size key="itemSize" width="128" height="128"/>
@@ -109,6 +109,7 @@
                         <outlet property="latesCollectionView" destination="fvb-Wc-eho" id="Znk-lW-Par"/>
                         <outlet property="popularCollectionView" destination="aRP-Q5-okF" id="t6S-az-jgg"/>
                         <outlet property="segmentedControl" destination="WbH-41-LqA" id="9SU-c8-Sc4"/>
+                        <outlet property="topCollectionView" destination="OWB-cg-RqI" id="LC6-IJ-o5o"/>
                         <outlet property="topRatedCollectionView" destination="ZC0-kZ-vJT" id="TK5-W4-iWl"/>
                         <outlet property="view" destination="ZC0-kZ-vJT" id="It2-bk-53p"/>
                     </connections>
