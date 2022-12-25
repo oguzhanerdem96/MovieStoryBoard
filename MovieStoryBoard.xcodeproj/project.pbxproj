@@ -12,6 +12,9 @@
 		660DCEB1295799680039A95C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 660DCEB0295799680039A95C /* Kingfisher */; };
 		660DCEB429579A410039A95C /* BottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660DCEB229579A410039A95C /* BottomCell.swift */; };
 		660DCEB529579A410039A95C /* BottomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660DCEB329579A410039A95C /* BottomCell.xib */; };
+		661AFBB929587CA900E0FD0A /* Favorites+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661AFBB829587CA900E0FD0A /* Favorites+CoreDataClass.swift */; };
+		661AFBBB29587CC100E0FD0A /* Favorites+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661AFBBA29587CC100E0FD0A /* Favorites+CoreDataProperties.swift */; };
+		661AFBBF29587CDE00E0FD0A /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661AFBBE29587CDE00E0FD0A /* CoreDataHelper.swift */; };
 		66261643294D00B3001AB647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66261642294D00B3001AB647 /* AppDelegate.swift */; };
 		66261645294D00B3001AB647 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66261644294D00B3001AB647 /* SceneDelegate.swift */; };
 		6626164A294D00B3001AB647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66261648294D00B3001AB647 /* Main.storyboard */; };
@@ -65,6 +68,9 @@
 		660DCEAC2957979C0039A95C /* TopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopCell.xib; sourceTree = "<group>"; };
 		660DCEB229579A410039A95C /* BottomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCell.swift; sourceTree = "<group>"; };
 		660DCEB329579A410039A95C /* BottomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomCell.xib; sourceTree = "<group>"; };
+		661AFBB829587CA900E0FD0A /* Favorites+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorites+CoreDataClass.swift"; sourceTree = "<group>"; };
+		661AFBBA29587CC100E0FD0A /* Favorites+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorites+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		661AFBBE29587CDE00E0FD0A /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		6626163F294D00B3001AB647 /* MovieStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66261642294D00B3001AB647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66261644294D00B3001AB647 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -440,6 +446,9 @@
 		66CB4F6B29520D3900E74949 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				661AFBB829587CA900E0FD0A /* Favorites+CoreDataClass.swift */,
+				661AFBBA29587CC100E0FD0A /* Favorites+CoreDataProperties.swift */,
+				661AFBBE29587CDE00E0FD0A /* CoreDataHelper.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -597,7 +606,9 @@
 				664EE9A9295453C40037908C /* WatchListCell.swift in Sources */,
 				6626165A294D07D0001AB647 /* MainVC.swift in Sources */,
 				664EE9B42954542D0037908C /* SearchCell.swift in Sources */,
+				661AFBB929587CA900E0FD0A /* Favorites+CoreDataClass.swift in Sources */,
 				664EE9BB2954546A0037908C /* NetworkHelper.swift in Sources */,
+				661AFBBB29587CC100E0FD0A /* Favorites+CoreDataProperties.swift in Sources */,
 				664EE9C1295454B10037908C /* ReviewModel.swift in Sources */,
 				664EE9D32954D1220037908C /* LatestManager.swift in Sources */,
 				668638962950FB7C007D908B /* LatestVC.swift in Sources */,
@@ -608,6 +619,7 @@
 				662A16662953C0CB005A5D8C /* DetailVM.swift in Sources */,
 				662A16862953C2AF005A5D8C /* CastCell.swift in Sources */,
 				66261643294D00B3001AB647 /* AppDelegate.swift in Sources */,
+				661AFBBF29587CDE00E0FD0A /* CoreDataHelper.swift in Sources */,
 				662A16722953C16E005A5D8C /* CastVC.swift in Sources */,
 				662A16922953C39A005A5D8C /* AboutVC.swift in Sources */,
 				66261645294D00B3001AB647 /* SceneDelegate.swift in Sources */,

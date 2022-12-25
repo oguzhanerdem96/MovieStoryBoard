@@ -10,10 +10,12 @@ import UIKit
 class AboutVC: UIViewController {
 
     @IBOutlet weak var textView: UITextView!
+    static var detailAbout: String?
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        textView.isEditable = false
+        textView.text = AboutVC.detailAbout
     }
     
 

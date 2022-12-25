@@ -24,9 +24,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a1O-zd-Qvn">
                                 <rect key="frame" x="6" y="0.0" width="381" height="190"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lg7-3G-5CN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lg7-3G-5CN">
                                 <rect key="frame" x="8" y="209" width="377" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -34,9 +33,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Lg7-3G-5CN" firstAttribute="top" secondItem="a1O-zd-Qvn" secondAttribute="bottom" constant="19" id="3yf-FT-7GG"/>
+                            <constraint firstAttribute="trailing" secondItem="Lg7-3G-5CN" secondAttribute="trailing" constant="8" id="GSW-De-cbg"/>
                             <constraint firstItem="a1O-zd-Qvn" firstAttribute="top" secondItem="unK-Wc-dcR" secondAttribute="top" id="MLu-EE-kdL"/>
                             <constraint firstAttribute="bottom" secondItem="a1O-zd-Qvn" secondAttribute="bottom" constant="65" id="Mnm-0F-Pa9"/>
+                            <constraint firstAttribute="bottom" secondItem="Lg7-3G-5CN" secondAttribute="bottom" constant="25" id="cRj-Wf-vU8"/>
                             <constraint firstAttribute="trailing" secondItem="a1O-zd-Qvn" secondAttribute="trailing" constant="6" id="fuC-fc-LLb"/>
+                            <constraint firstItem="Lg7-3G-5CN" firstAttribute="leading" secondItem="unK-Wc-dcR" secondAttribute="leading" constant="8" id="h2e-U1-q0f"/>
                             <constraint firstItem="a1O-zd-Qvn" firstAttribute="leading" secondItem="unK-Wc-dcR" secondAttribute="leading" constant="6" id="nSu-9a-mOI"/>
                         </constraints>
                     </view>

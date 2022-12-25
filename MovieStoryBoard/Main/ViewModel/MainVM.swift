@@ -26,6 +26,8 @@ class MainVM {
                 self.page += 1
                 self.delegate?.didGetTopRated(isDone: false)
             }
+            completion(errorMessage)
+            self.delegate?.didGetTopRated(isDone: false)
         }
     }
 }
