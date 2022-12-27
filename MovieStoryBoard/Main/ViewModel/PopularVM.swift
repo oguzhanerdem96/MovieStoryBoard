@@ -22,7 +22,7 @@ class PopularVM {
     private var page: Int = 1
     
     func getPopular(complete: @escaping((String?)->())) {
-        UpcomingManager.shared.getUpcoming(page: page) { items, errorMessage in
+        UpcomingManager.shared.getUpComing(page: page) { items, errorMessage in
             
             if let items = items {
                 self.popular.append(contentsOf: items.results!)

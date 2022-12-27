@@ -14,15 +14,19 @@ class ReviewCell: UITableViewCell {
     @IBOutlet weak var reviewTitle: UILabel!
     @IBOutlet weak var reviewDetail: UILabel!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        reviewImageVİew.layer.cornerRadius = 6
+        reviewView.layer.borderColor = UIColor.lightGray.cgColor
+        reviewView.layer.borderWidth = 0.3
+        reviewView.layer.cornerRadius = 16
+        reviewView.backgroundColor = .clear
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func configureCell(item: ResultReview) {
+        self.reviewTitle.text = item.author?.uppercased()
+        self.reviewDetail.text = item.content
+        self.reviewImageVİew.image = UIImage(named: "car6")
     }
-    
 }
