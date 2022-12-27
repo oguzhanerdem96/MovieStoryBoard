@@ -34,7 +34,7 @@ class ReviewVC: UIViewController {
     }
 }
 
-extension ContainerViewReviews: UITableViewDelegate, UITableViewDataSource {
+extension ReviewVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ReviewVM.shared.reviews.count
@@ -55,7 +55,7 @@ extension ContainerViewReviews: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-extension ContainerViewReviews: ReviewDelegate {
+extension ReviewVC: ReviewDelegate {
     func didGetReviews(isDone: Bool) {
         if isDone {
             DispatchQueue.main.async {
