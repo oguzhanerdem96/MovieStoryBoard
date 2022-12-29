@@ -23,8 +23,8 @@ class ReviewVM {
 
     func getReviews(complete: @escaping((String?)->())) {
         
-        let id = ReviewVM.shared.movieID
-        ReviewManager.shared.getReview(movieID: id!) { [self] items, errorMessage in
+        guard let id = ReviewVM.shared.movieID else { return }
+        ReviewManager.shared.getReview(movieID: id) { [self] items, errorMessage in
             
             if let items = items {
                 self.reviews = items.results!
@@ -37,4 +37,3 @@ class ReviewVM {
         }
     }
 }
-

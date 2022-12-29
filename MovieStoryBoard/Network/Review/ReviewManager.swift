@@ -10,15 +10,19 @@ import Foundation
 class ReviewManager {
     static let shared = ReviewManager()
     
-    func getReview(movieID: Int, completion: @escaping ((Review? , String?)->())) {
+    
+    func getReview(movieID: Int, complete: @escaping((Review?, String?)->())) {
+        
         let url = APIURLs.review(movieID: movieID)
         
-        NetworkManager.shared.request(type: Review.self, url: url, method: .get) { response in
+        NetworkManager.shared.request(type: Review.self,
+                                      url: url,
+                                      method: .get) { response in
             switch response {
             case .success(let items):
-                completion(items, nil)
+                complete(items, nil)
             case .failure(let error):
-                completion(nil, error.rawValue )
+                complete(nil, error.rawValue)
             }
         }
     }

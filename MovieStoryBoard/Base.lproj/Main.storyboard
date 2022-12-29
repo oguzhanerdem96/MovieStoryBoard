@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="OWB-cg-RqI">
-                                <rect key="frame" x="0.0" y="89" width="393" height="255.66666666666663"/>
+                                <rect key="frame" x="0.0" y="88.999999999999986" width="393" height="255.66666666666663"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Rop-cy-g8e">
                                     <size key="itemSize" width="128" height="128"/>
@@ -121,7 +121,7 @@
         <!--DetailVC-->
         <scene sceneID="VC5-2o-xnC">
             <objects>
-                <viewController id="YTh-3D-EHR" customClass="DetailVC" customModule="MovieStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="YTh-3D-EHR" customClass="DetailVC" customModule="MovieStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hKH-lN-P9x">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
