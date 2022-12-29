@@ -13,11 +13,20 @@ class SearchCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        searchImageView.layer.cornerRadius = 16
+        searchCellView.layer.cornerRadius = 16
+    }
+
+
+    func configureCell(item: ResultMovie) {
+        self.movieTitle.text = item.title
+        self.movieMinutes.text = item.release_date
+        self.movieGenre.text = "\(item.vote_average ?? 7.8)"
+        self.movieYear.text = item.original_language?.uppercased()
+        let image = NetworkHelper.shared.baseImageUrl + item.poster_path!
+        self.searchImageView.kf.setImage(with: URL(string: image))
+    }
 }
