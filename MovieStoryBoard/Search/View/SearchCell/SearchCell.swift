@@ -6,13 +6,16 @@
 //
 
 import UIKit
+import Kingfisher
 
 class SearchCell: UITableViewCell {
+    @IBOutlet weak var searchCellView: UIView!
+    @IBOutlet weak var searchImageView: UIImageView!
+    @IBOutlet weak var movieTitle: UILabel!
+    @IBOutlet weak var movieYear: UILabel!
+    @IBOutlet weak var movieGenre: UILabel!
+    @IBOutlet weak var movieMinutes: UILabel!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
     
     override func awakeFromNib() {
         super.awakeFromNib()

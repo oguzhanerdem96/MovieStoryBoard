@@ -33,10 +33,10 @@
 		662A168F2953C352005A5D8C /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662A168D2953C352005A5D8C /* ReviewCell.swift */; };
 		662A16902953C352005A5D8C /* ReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662A168E2953C352005A5D8C /* ReviewCell.xib */; };
 		662A16922953C39A005A5D8C /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662A16912953C39A005A5D8C /* AboutVC.swift */; };
+		6648AAF2295E0B8600369816 /* WatchListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648AAF0295E0B8600369816 /* WatchListCell.swift */; };
+		6648AAF3295E0B8600369816 /* WatchListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6648AAF1295E0B8600369816 /* WatchListCell.xib */; };
 		664EE9A3295453720037908C /* WatchListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664EE9A2295453720037908C /* WatchListVM.swift */; };
 		664EE9A5295453950037908C /* WatchListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664EE9A4295453950037908C /* WatchListVC.swift */; };
-		664EE9A9295453C40037908C /* WatchListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664EE9A7295453C40037908C /* WatchListCell.swift */; };
-		664EE9AA295453C40037908C /* WatchListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664EE9A8295453C40037908C /* WatchListCell.xib */; };
 		664EE9AE295453F20037908C /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664EE9AD295453F20037908C /* SearchVM.swift */; };
 		664EE9B02954540B0037908C /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664EE9AF2954540B0037908C /* SearchVC.swift */; };
 		664EE9B42954542D0037908C /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664EE9B22954542D0037908C /* SearchCell.swift */; };
@@ -91,10 +91,10 @@
 		662A168D2953C352005A5D8C /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		662A168E2953C352005A5D8C /* ReviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewCell.xib; sourceTree = "<group>"; };
 		662A16912953C39A005A5D8C /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		6648AAF0295E0B8600369816 /* WatchListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListCell.swift; sourceTree = "<group>"; };
+		6648AAF1295E0B8600369816 /* WatchListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchListCell.xib; sourceTree = "<group>"; };
 		664EE9A2295453720037908C /* WatchListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListVM.swift; sourceTree = "<group>"; };
 		664EE9A4295453950037908C /* WatchListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListVC.swift; sourceTree = "<group>"; };
-		664EE9A7295453C40037908C /* WatchListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListCell.swift; sourceTree = "<group>"; };
-		664EE9A8295453C40037908C /* WatchListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchListCell.xib; sourceTree = "<group>"; };
 		664EE9AD295453F20037908C /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
 		664EE9AF2954540B0037908C /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		664EE9B22954542D0037908C /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
@@ -295,8 +295,8 @@
 		664EE9A62954539A0037908C /* WatchListCell */ = {
 			isa = PBXGroup;
 			children = (
-				664EE9A7295453C40037908C /* WatchListCell.swift */,
-				664EE9A8295453C40037908C /* WatchListCell.xib */,
+				6648AAF0295E0B8600369816 /* WatchListCell.swift */,
+				6648AAF1295E0B8600369816 /* WatchListCell.xib */,
 			);
 			path = WatchListCell;
 			sourceTree = "<group>";
@@ -572,11 +572,11 @@
 			files = (
 				66261652294D00B4001AB647 /* LaunchScreen.storyboard in Resources */,
 				660DCEB529579A410039A95C /* BottomCell.xib in Resources */,
-				664EE9AA295453C40037908C /* WatchListCell.xib in Resources */,
 				662A16902953C352005A5D8C /* ReviewCell.xib in Resources */,
 				662A16872953C2AF005A5D8C /* CastCell.xib in Resources */,
 				6626164F294D00B4001AB647 /* Assets.xcassets in Resources */,
 				664EE9B52954542D0037908C /* SearchCell.xib in Resources */,
+				6648AAF3295E0B8600369816 /* WatchListCell.xib in Resources */,
 				6626164A294D00B3001AB647 /* Main.storyboard in Resources */,
 				660DCEAE2957979C0039A95C /* TopCell.xib in Resources */,
 			);
@@ -603,7 +603,6 @@
 				664EE9C3295454BF0037908C /* DetailModel.swift in Sources */,
 				6626164D294D00B3001AB647 /* MovieStoryBoard.xcdatamodeld in Sources */,
 				664EE9B02954540B0037908C /* SearchVC.swift in Sources */,
-				664EE9A9295453C40037908C /* WatchListCell.swift in Sources */,
 				6626165A294D07D0001AB647 /* MainVC.swift in Sources */,
 				664EE9B42954542D0037908C /* SearchCell.swift in Sources */,
 				661AFBB929587CA900E0FD0A /* Favorites+CoreDataClass.swift in Sources */,
@@ -631,6 +630,7 @@
 				664EE9CF2954D1080037908C /* ReviewManager.swift in Sources */,
 				664EE9A3295453720037908C /* WatchListVM.swift in Sources */,
 				664EE9BD2954547B0037908C /* CastManager.swift in Sources */,
+				6648AAF2295E0B8600369816 /* WatchListCell.swift in Sources */,
 				66CB4F722952232B00E74949 /* MainVM.swift in Sources */,
 				660DCEB429579A410039A95C /* BottomCell.swift in Sources */,
 			);

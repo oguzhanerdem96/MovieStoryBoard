@@ -113,7 +113,7 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailVC") as! DetailVC
         DetailVM.shared.movieID = SearchVM.shared.searchMovie[indexPath.row].id
-        ContainerViewAbout.detailAbout = SearchVM.shared.searchMovie[indexPath.row].overview
+        AboutVC.detailAbout = SearchVM.shared.searchMovie[indexPath.row].overview
         navigationController?.pushViewController(vc, animated: true)
     }
     

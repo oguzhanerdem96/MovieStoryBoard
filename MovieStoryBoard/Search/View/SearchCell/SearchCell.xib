@@ -123,6 +123,14 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieGenre" destination="jKc-Dl-qVX" id="r0L-1n-tRU"/>
+                <outlet property="movieMinutes" destination="z0F-xx-ftR" id="kul-r1-LCV"/>
+                <outlet property="movieTitle" destination="gD1-rj-7pF" id="7vq-Oh-Ccj"/>
+                <outlet property="movieYear" destination="oq8-GQ-JJ4" id="bLk-dF-lDR"/>
+                <outlet property="searchCellView" destination="aDx-ZP-ZGb" id="Vm2-SF-6VK"/>
+                <outlet property="searchImageView" destination="tTr-9F-Dyi" id="o48-bY-afM"/>
+            </connections>
             <point key="canvasLocation" x="143.5114503816794" y="52.816901408450704"/>
         </tableViewCell>
     </objects>
