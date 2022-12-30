@@ -295,6 +295,7 @@
                         <outlet property="movieLabel" destination="ST3-iU-WOg" id="bOh-Pd-8NB"/>
                         <outlet property="movieOrigin" destination="OUB-lr-hoa" id="BCU-8Y-UGV"/>
                         <outlet property="moviePoint" destination="oUm-7f-jz4" id="SNL-1f-9BP"/>
+                        <outlet property="selectedSegment" destination="1ey-mT-rX1" id="6MR-lf-k17"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Moo-Rs-QZB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
