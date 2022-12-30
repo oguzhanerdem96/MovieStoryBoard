@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CastCell: UICollectionViewCell {
 
@@ -15,7 +16,19 @@ class CastCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        castCellView.backgroundColor = UIColor.clear
+        castImageView.layer.cornerRadius = 6
     }
-
+  
+    func configureCell(item: Cast) {
+        self.castTitle.text = item.name
+        if item.profilePath != nil {
+            let image = NetworkHelper.shared.baseImageUrl + item.profilePath!
+            self.castImageView.kf.setImage(with: URL(string: image))
+        } else {
+            let image = "https://artsmidnorthcoast.com/wp-content/uploads/2014/05/no-image-available-icon-6.png"
+            self.castImageView.kf.setImage(with: URL(string: image))
+        }
+        self.castImageView.kf.indicatorType = .activity
+    }
 }
